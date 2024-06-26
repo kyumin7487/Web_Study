@@ -1,0 +1,14 @@
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+.idea
+._.idea
+**/.idea
+**/._.idea
+
+.node_modules
+._.node_modules
+**/.node_modules
+**/._.node_modules
