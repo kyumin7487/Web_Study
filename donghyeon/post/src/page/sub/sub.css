@@ -1,0 +1,94 @@
+.subWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #ddd;
+    background-color: rgb(239, 122, 170);
+}
+
+.item{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #FF9D81;
+    -webkit-text-stroke: 0.4px black;
+}
+
+.item h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fad347;
+}
+
+.item p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #f3d15c;
+}
+
+button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#fad347;
+    color: #f33049;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #e8c74d;
+}
+
+button:focus{
+    outline: none;
+}
+
+.react-modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-modal-content{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.react-modal-content h2{
+    margin-top: 0;
+}
+
+.react-modal-content input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.react-modal-content button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fad347;
+    color: #f33049;
+    font-size: 1em;
+}
+
+.react-modal-content button:hover{
+    background-color: #d5b646;
+}
